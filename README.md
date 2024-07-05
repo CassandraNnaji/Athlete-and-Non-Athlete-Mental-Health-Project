@@ -37,31 +37,37 @@ For this project, I decided to experiment with two different datasets. The first
 
 1.	Across all sports, there are more 'Non-Elite' athletes (club, local competition, recreational) compared to Elite athletes (national, professional) and Semi-Elite athletes (semi-professional, county GAA).
 
-2.	
-•	The highest participation is observed in (Ball Sports), followed by (Track & Field), (Dance, Gymnastics, and Strength), and (Rowing & Kayaking). Specifically, there are approximately ~110 athletes in Ball Sports, ~53 athletes in Track & Field, ~9 athletes in Dance, Gymnastics, and Strength, and ~8 athletes in Rowing & Kayaking. Other sports have fewer than 3 participants each.
+2.
+   •	The highest participation is observed in (Ball Sports), followed by (Track & Field), (Dance, Gymnastics, and Strength), and (Rowing & Kayaking). Specifically, there are approximately ~110 athletes in Ball Sports, ~53 athletes in Track & Field, ~9 athletes in Dance, Gymnastics, and Strength, and ~8 athletes in Rowing & Kayaking. Other sports have fewer than 3 participants each.
 
-•	Within Ball Sports, there are about ~70 Non-Elite athletes, ~25 Semi-Elite athletes, and ~15 Elite athletes.
+    •	Within Ball Sports, there are about ~70 Non-Elite athletes, ~25 Semi-Elite athletes, and ~15 Elite athletes.
 
-•	For Track & Field, there are approximately ~45 Non-Elite athletes, ~5 Semi-Elite athletes, and ~3 Elite athletes.
+    •	For Track & Field, there are approximately ~45 Non-Elite athletes, ~5 Semi-Elite athletes, and ~3 Elite athletes.
 
-•	In Dance, Gymnastics, and Strength, there are around ~7 Non-Elite athletes and ~2 Elite athletes.
+    •	In Dance, Gymnastics, and Strength, there are around ~7 Non-Elite athletes and ~2 Elite athletes.
 
-•	In Rowing & Kayaking, there are about ~3 Non-Elite athletes, ~2 Semi-Elite athletes, and ~3 Elite athletes.
+    •	In Rowing & Kayaking, there are about ~3 Non-Elite athletes, ~2 Semi-Elite athletes, and ~3 Elite athletes.
 
 4.	I analyzed the athletes' involvement in structured/rule-bound competitive sports and their weekly practice hours. The findings are as follows:
-•	All athletes participate in structured/rule-bound competitive sports.
-•	A significant proportion of the athletes practice between 1-5 hours or 6-10 hours per week.
+   
+    •	All athletes participate in structured/rule-bound competitive sports.
 
-5.	Based on location and sports level, the analysis revealed the following:
-•	All athletes in this dataset are from either Ireland or the UK.
-•	In Ireland, there are approximately 37 Non-Elite athletes, 10 Semi-Elite athletes, and 10 Elite athletes.
-•	In the UK, there are approximately 100 Non-Elite athletes, 25 Semi-Elite athletes, and 15 Elite athletes.
+    •	A significant proportion of the athletes practice between 1-5 hours or 6-10 hours per week.
 
-6.	Based on location (Ireland and the UK) and different mental health conditions, the analysis revealed the following:
-•	In Ireland, the majority of athletes, approximately 120, do not have a mental health condition. A smaller number of athletes, around 2 each, suffer from Anxiety, Depression, both Depression and Anxiety, or have an unspecified mental health condition.
-•	In the UK, the majority of athletes, approximately 53, do not have a mental health condition. A smaller number of athletes, varying under 8 each, suffer from Anxiety, Depression, both Depression and Anxiety, PTSD, or have an unspecified mental health condition.
+6.	Based on location and sports level, the analysis revealed the following:
+   
+    •	All athletes in this dataset are from either Ireland or the UK.
 
-7.	Based on location (Ireland and the UK), mental health conditions, and typical age groups affected, the analysis revealed the following:
+    •	In Ireland, there are approximately 37 Non-Elite athletes, 10 Semi-Elite athletes, and 10 Elite athletes.
+
+    •	In the UK, there are approximately 100 Non-Elite athletes, 25 Semi-Elite athletes, and 15 Elite athletes.
+
+8.	Based on location (Ireland and the UK) and different mental health conditions, the analysis revealed the following:
+   
+    •	In Ireland, the majority of athletes, approximately 120, do not have a mental health condition. A smaller number of athletes, around 2 each, suffer from Anxiety, Depression, both Depression and Anxiety, or have an unspecified mental health condition.
+    •	In the UK, the majority of athletes, approximately 53, do not have a mental health condition. A smaller number of athletes, varying under 8 each, suffer from Anxiety, Depression, both Depression and Anxiety, PTSD, or have an unspecified mental health condition.
+
+10.	Based on location (Ireland and the UK), mental health conditions, and typical age groups affected, the analysis revealed the following:
 
 In Ireland:
 •	Anxiety Disorder: Only 1 athlete has this condition, and they are in the 18-20 age group.

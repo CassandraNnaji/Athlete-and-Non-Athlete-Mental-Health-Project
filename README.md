@@ -48,13 +48,13 @@ For this project, I decided to experiment with two different datasets. The first
 
     •	In Rowing & Kayaking, there are about ~3 Non-Elite athletes, ~2 Semi-Elite athletes, and ~3 Elite athletes.
 
-4.	I analyzed the athletes' involvement in structured/rule-bound competitive sports and their weekly practice hours. The findings are as follows:
+3.	I analyzed the athletes' involvement in structured/rule-bound competitive sports and their weekly practice hours. The findings are as follows:
    
     •	All athletes participate in structured/rule-bound competitive sports.
 
     •	A significant proportion of the athletes practice between 1-5 hours or 6-10 hours per week.
 
-6.	Based on location and sports level, the analysis revealed the following:
+4.	Based on location and sports level, the analysis revealed the following:
    
     •	All athletes in this dataset are from either Ireland or the UK.
 
@@ -62,45 +62,64 @@ For this project, I decided to experiment with two different datasets. The first
 
     •	In the UK, there are approximately 100 Non-Elite athletes, 25 Semi-Elite athletes, and 15 Elite athletes.
 
-8.	Based on location (Ireland and the UK) and different mental health conditions, the analysis revealed the following:
+5.	Based on location (Ireland and the UK) and different mental health conditions, the analysis revealed the following:
    
     •	In Ireland, the majority of athletes, approximately 120, do not have a mental health condition. A smaller number of athletes, around 2 each, suffer from Anxiety, Depression, both Depression and Anxiety, or have an unspecified mental health condition.
     •	In the UK, the majority of athletes, approximately 53, do not have a mental health condition. A smaller number of athletes, varying under 8 each, suffer from Anxiety, Depression, both Depression and Anxiety, PTSD, or have an unspecified mental health condition.
 
-10.	Based on location (Ireland and the UK), mental health conditions, and typical age groups affected, the analysis revealed the following:
+6.	Based on location (Ireland and the UK), mental health conditions, and typical age groups affected, the analysis revealed the following:
 
 In Ireland:
-•	Anxiety Disorder: Only 1 athlete has this condition, and they are in the 18-20 age group.
-•	Depression Disorder: 2 athletes have this condition; one is in the 18-20 age group and the other in the 31-40 age group.
-•	Depression & Anxiety Disorder: Only 1 athlete has this condition, and they are in the 31-40 age group.
-•	Unknown Mental Health Disorder: Only 1 athlete fits in this category, and they are in the 21-30 age group.
+
+    •	Anxiety Disorder: Only 1 athlete has this condition, and they are in the 18-20 age group.
+
+    •	Depression Disorder: 2 athletes have this condition; one is in the 18-20 age group and the other in the 31-40 age group.
+
+    •	Depression & Anxiety Disorder: Only 1 athlete has this condition, and they are in the 31-40 age group.
+
+    •	Unknown Mental Health Disorder: Only 1 athlete fits in this category, and they are in the 21-30 age group.
 
 In the UK:
-•	Anxiety Disorder: 8 athletes have this condition. 3 in the 21-30 age group, 3 in the 31-40 age group, and 2 in the 41-50 age group.
-•	Depression Disorder: 5 athletes have this condition. 1 in the 18-20 age group, 2 in the 21-30 age group, and 2 in the 31-40 age group.
-•	Depression & Anxiety Disorder: 3 athletes have this condition. 1 in the 18-20 age group, and 2 in the 41-50 age group.
-•	Unknown Mental Health Disorder: 4 athletes fit into this category. 1 in the 18-20 age group, 1 in the 21-30 age group, and 2 in the 41-50 age group.
-•	PTSD Disorder: 2 athletes have this condition. 1 in the 31-40 age group and 1 in the 51-60 age group.
+
+    •	Anxiety Disorder: 8 athletes have this condition. 3 in the 21-30 age group, 3 in the 31-40 age group, and 2 in the 41-50 age group.
+
+    •	Depression Disorder: 5 athletes have this condition. 1 in the 18-20 age group, 2 in the 21-30 age group, and 2 in the 31-40 age group.
+
+    •	Depression & Anxiety Disorder: 3 athletes have this condition. 1 in the 18-20 age group, and 2 in the 41-50 age group.
+
+    •	Unknown Mental Health Disorder: 4 athletes fit into this category. 1 in the 18-20 age group, 1 in the 21-30 age group, and 2 in the 41-50 age group.
+
+    •	PTSD Disorder: 2 athletes have this condition. 1 in the 31-40 age group and 1 in the 51-60 age group.
 
 Overall Determination:
-•	Athletes in the dataset aged 18-50 suffer the most from mental health conditions.
-•	There are no athletes aged 51+ in the dataset who suffer from any mental health disorder, except for 1 athlete suffering from PTSD.
+
+    •	Athletes in the dataset aged 18-50 suffer the most from mental health conditions.
+    
+    •	There are no athletes aged 51+ in the dataset who suffer from any mental health disorder, except for 1 athlete suffering from PTSD.
 
 7.	Upon creating a correlation chart, I found that the only highly correlated variables (with a correlation coefficient greater than 0.5) in the dataset nona_df3 are:
-•	'I have a hard time making it through stressful events' and 'It is hard for me to snap back when something bad happens,' with a correlation of 0.626221.
-•	'I get sudden feelings of panic' and 'I get a sort of frightened feeling like 'butterflies' in my stomach,' with a correlation of 0.564985.
+   
+    •	'I have a hard time making it through stressful events' and 'It is hard for me to snap back when something bad happens,' with a correlation of 0.626221.
+
+    •	'I get sudden feelings of panic' and 'I get a sort of frightened feeling like 'butterflies' in my stomach,' with a correlation of 0.564985.
 
 ## Summary of Model Results
 
 1.	Dataset Imbalance: The dataset exhibited moderate to extreme class imbalance, with 86% of the samples classified as 'No' (not suffering from a mental health condition) and 13.8% classified as 'Yes' (suffering from a mental health condition). For the sake of curiosity, I chose to work with the imbalanced dataset rather than applying upsampling or downsampling techniques.
+   
 2.	Model Performance with XGBoost: I employed an XGBoost model, which achieved an impressive F1 score of 92% on the test data. However, this high score was primarily due to the weighted F1 score, which adjusts for class frequencies by assigning different weights based on their prevalence in the dataset.
+   
 3.	Confusion Matrix Analysis: To further evaluate the model’s performance, I created a Confusion Matrix. This tool allowed me to more comprehensively assess how well the model was predicting the different classes.
+   
 4.	Model Reliability: Despite the high F1 score, the model’s predictions proved unreliable. The imbalance in the dataset led to misleadingly high-performance metrics, indicating that the model was not truly effective for making accurate predictions.
 
 ## Recommendations / Next Steps
 
 1.	Address Missing Data: The analysis revealed a significant amount of missing data in many key columns. To improve the quality of future datasets, it is recommended that the athletes be resurveyed to ensure complete and accurate responses to all relevant questions. Alternatively, ensuring that the survey completion rates are high for all important questions could improve data reliability.
+   
 2.	Focus on Relevant Locations: Given that the majority of the data pertains to athletes in Ireland and the UK, future surveys should be concentrated on these two countries. This approach will ensure that the data collected is more relevant and representative of the target population for this specific study.
+   
 3.	Balance Data Across Sports Levels: The current dataset is heavily skewed towards Non-Elite athletes, with fewer Elite and Semi-Elite athletes represented. To achieve a more balanced dataset, efforts should be made to survey a greater number of athletes in the 'Elite' and 'Semi-Elite' categories. A more balanced dataset will allow for a better analysis of how different sports levels relate to mental health conditions.
+   
 4.	Develop and Validate Models: Once accurate and balanced data is obtained, constructing a new XGBoost model should be a priority. This model could be used to assess the predictability of mental health conditions among athletes, exploring various factors such as symptoms, emotional influences, and sports levels. Further validation and refinement of the model can provide deeper insights into the factors contributing to mental health issues.
 

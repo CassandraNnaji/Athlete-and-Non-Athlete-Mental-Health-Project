@@ -1,4 +1,4 @@
-# Athlete-and-Non-Athlete-Mental-Health-Project
+# Mental Health in Sports: A Comparative Analysis of Elite, Semi-Elite, and Non-Elite Athletes
 
 ## Overview/Business Understanding 
 In this project, we will investigate data related to athletes across various sport levels and their mental health conditions. My curiosity about this topic stems from the recognition that athletes experience significant pressure and physical strain depending on their sport level and the nature of their sport. Through interviews and articles, we often hear about the mental health challenges faced by athletes and the factors contributing to these conditions. The primary objective of this project is to uncover insights that reveal the relationship between athletes' sport levels, the types of sports they engage in, and their mental health conditions. Additionally, we aim to develop a predictive model to assess the likelihood of an athlete experiencing a mental health condition. 
